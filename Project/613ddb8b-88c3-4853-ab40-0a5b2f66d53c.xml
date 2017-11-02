@@ -2,3 +2,4 @@
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=proba	G=VAR_EXTERNAL
