@@ -11,7 +11,7 @@
         <Option>EnumElement2</Option>
       </Options>
     </NexCpuActionRunModeAtPowerOn>
-    <NexCpuActionBatteryLessSetting>
+    <NexCpuActionBatteryLess>
       <CurrentValue>EnumElement1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
@@ -20,7 +20,7 @@
         <Option>EnumElement1</Option>
         <Option>EnumElement2</Option>
       </Options>
-    </NexCpuActionBatteryLessSetting>
+    </NexCpuActionBatteryLess>
     <NexCpuActionRunModeDelayTime>
       <CurrentValue>0</CurrentValue>
       <IsEnabled>true</IsEnabled>
@@ -45,6 +45,34 @@
         <Option>EnumElement2</Option>
       </Options>
     </NexCpuActionMemoryCardCheckAtPowerOn>
+    <NexCpuActionSystemServiceExecutionInterval>
+      <CurrentValue>10</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10</DefaultValue>
+      <Options />
+    </NexCpuActionSystemServiceExecutionInterval>
+    <NexCpuActionSystemServiceExecutionIntervalValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexCpuActionSystemServiceExecutionIntervalValue2>
+    <NexCpuActionSystemServiceExecutionTimeRate>
+      <CurrentValue>10</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10</DefaultValue>
+      <Options />
+    </NexCpuActionSystemServiceExecutionTimeRate>
+    <NexCpuActionSystemServiceExecutionTimeRateValue2>
+      <CurrentValue>%</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>%</DefaultValue>
+      <Options />
+    </NexCpuActionSystemServiceExecutionTimeRateValue2>
     <NexCpuActionSDCardProgramTransferEnable>
       <CurrentValue>EnumElement1</CurrentValue>
       <IsEnabled>true</IsEnabled>
@@ -2536,16 +2564,6 @@
       <DefaultValue></DefaultValue>
       <Options />
     </NexCpuEipFINSRoutingTableRemoteTableItem63RelayNode>
-    <NexCpuEipFINSWriteProtectionEnable>
-      <CurrentValue>EnumElement1</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>EnumElement1</DefaultValue>
-      <Options>
-        <Option>EnumElement1</Option>
-        <Option>EnumElement2</Option>
-      </Options>
-    </NexCpuEipFINSWriteProtectionEnable>
   </NexCpuEipFINSSetting>
   <NexCpuLevelSetting>
     <NexCpuLevelSettingTable>

@@ -1,6 +1,6 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=ARRAY[*] OF bool	N=bigyo	Ord=0	G=VAR_IN_OUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
-++D=BOOL	N=proba	G=VAR_EXTERNAL
-++D=BOOL	N=ize	G=VAR_EXTERNAL
